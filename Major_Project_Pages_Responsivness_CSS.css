@@ -1,0 +1,32 @@
+@media only screen and (max-width: 768px) {
+	main{
+		flex-direction:column;
+	}
+	.left-portion{
+	width: 100%;
+    height:100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:flex;
+    flex-direction:column;  
+	}
+
+	.right-portion{
+		width: 100%;
+		height:100vh;
+	    overflow: scroll; 
+	    display:flex;
+	    flex-direction:column; 
+	} 
+	.artist-section{height:50vh;}
+	.recently-played-list{height:50vh;}
+	.playlist-list{height:50vh;}
+	.music-player-left-section{width:32vw;}
+	.music-player-mid-section{width:45vw;}
+	.controls{width:25vw;}
+	.time-scroller input[type=range] {width:22vw;}
+	.music-player-right-section{width:23vw;}
+	.music-player-right-section .fa-list,.fa-desktop,.fa-volume-up,.fa-expand,.volume-bar{visibility:hidden;}
+	.music-player-right-section .fa-ellipsis-v{visibility:visible;margin-left:50px;} 
+}
+

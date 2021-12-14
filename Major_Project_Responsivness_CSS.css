@@ -1,0 +1,167 @@
+@media only screen and (max-width: 992px) {
+	body{
+		background: -webkit-linear-gradient(left,red,blue);
+		background-repeat:no-repeat;
+	} 
+	.left-portion{ 
+	width:65vw;
+    height: 76vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:flex;
+    flex-direction:column;  
+	}
+
+	.right-portion{ 
+		width:35vw;
+		height: 76vh;
+	    overflow: scroll; 
+	    display:flex;
+	    flex-direction:column; 
+	}
+	.carousel div { 
+	    height: 16vh;
+	    width: 50vh; 
+	}
+	.latest-flex{
+		flex-direction:column;
+	}
+	.latest-flex > div{
+		height:100px;
+		width:100%; 
+	}
+	.popular-artists-content{ 
+		flex-wrap:wrap; 
+	} 	
+	.stations{flex-wrap:wrap;} 	
+	.other-three-stations{flex-direction:column;}
+	.other-three-stations div{width:100%;margin-top:9px;}
+	.ot-parent{width:100%;}
+	.latest-english-content{flex-wrap:wrap;padding:1vw;}
+	.latest-hindi-content{flex-wrap:wrap;padding:1vw;}
+	.music-player-left-section{width:32vw;}
+	.music-player-mid-section{width:45vw;}
+	.controls{width:25vw;}
+	.time-scroller input[type=range] {width:22vw;}
+	.music-player-right-section{width:23vw;}
+	.music-player-right-section .fa-list,.fa-desktop,.fa-volume-up,.fa-expand,.volume-bar{visibility:hidden;}
+	.music-player-right-section .fa-ellipsis-v{visibility:visible;margin-left:50px;} 
+}
+ 
+
+@media only screen and (max-width: 768px) {
+	body{
+		background: -webkit-linear-gradient(left,red,blue);
+		background-repeat:no-repeat;
+	}
+	main{
+		display:inline;
+		flex-direction:column;
+	}
+	.left-portion{
+	width: 100%;
+    height: 76vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:inline;
+    flex-direction:column;  
+	}
+
+	.right-portion{
+		width: 100%;
+		height: 76vh;
+	    overflow: scroll; 
+	    display:flex;
+	    flex-direction:column; 
+	}
+	.carousel div { 
+	    height: 16vh;
+	    width: 50vh; 
+	}
+	.latest-flex{
+		flex-direction:column;
+	}
+	.latest-flex > div{
+		height:100px;
+		width:100%; 
+	}
+	.popular-artists-content{ 
+		flex-wrap:wrap; 
+	} 	
+	.stations{flex-wrap:wrap;} 	
+	.other-three-stations{flex-direction:column;}
+	.other-three-stations div{width:100%;margin-top:9px;}
+	.ot-parent{width:100%;}
+	.latest-english-content{flex-wrap:wrap;}
+	.latest-hindi-content{flex-wrap:wrap;}
+	.music-player-left-section{width:32vw;}
+	.music-player-mid-section{width:45vw;}
+	.controls{width:25vw;}
+	.time-scroller input[type=range] {width:22vw;}
+	.music-player-right-section{width:23vw;}
+	.music-player-right-section .fa-list,.fa-desktop,.fa-volume-up,.fa-expand,.volume-bar{visibility:hidden;}
+	.music-player-right-section .fa-ellipsis-v{visibility:visible;margin-left:50px;} 
+}
+
+@media only screen and (max-width: 600px) {
+	body{
+		background: -webkit-linear-gradient(left,red,blue);
+		background-repeat:no-repeat;
+	} 
+	.favourites{width:3vw;} 
+	@keyframes fav-animate{
+	0%{transform:rotate(0deg);}
+	25%{transform:rotate(5deg);}
+	50%{transform:rotate(-5deg);} 
+	85%{transform:scale(0.8);text-shadow:0px 0px 10px white;}
+	100%{transform:scale(0.9);text-shadow:0px 0px 20px white;}
+	}
+	.notif-bell{width:1vw;}
+	main{
+		display:inline;
+		flex-direction:column;
+	}
+	.left-portion{
+	width: 100%;
+    height: 76vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    display:inline;
+    flex-direction:column;  
+	}
+
+	.right-portion{
+		width: 100%;
+		height: 76vh;
+	    overflow: scroll; 
+	    display:flex;
+	    flex-direction:column; 
+	}
+	.carousel div { 
+	    height: 16vh;
+	    width: 50vh; 
+	}
+	.latest-flex{
+		flex-direction:column;
+	}
+	.latest-flex > div{
+		height:100px;
+		width:100%; 
+	}
+	.popular-artists-content{ 
+		flex-wrap:wrap; 
+	} 	
+	.stations{flex-wrap:wrap;} 	
+	.other-three-stations{flex-direction:column;}
+	.other-three-stations div{width:100%;margin-top:9px;}
+	.ot-parent{width:100%;}
+	.latest-english-content{flex-wrap:wrap;}
+	.latest-hindi-content{flex-wrap:wrap;}
+	.music-player-left-section{width:32vw;}
+	.music-player-mid-section{width:45vw;}
+	.controls{width:25vw;}
+	.time-scroller input[type=range] {width:22vw;}
+	.music-player-right-section{width:23vw;}
+	.music-player-right-section .fa-list,.fa-desktop,.fa-volume-up,.fa-expand,.volume-bar{visibility:hidden;}
+	.music-player-right-section .fa-ellipsis-v{visibility:visible;margin-left:50px;} 
+}
